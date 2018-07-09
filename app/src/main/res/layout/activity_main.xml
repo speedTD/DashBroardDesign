@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:textColor="#ffffff"
+                android:text="Dash Broard"
+                android:background="@drawable/back2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                />
+            <TextView
+                android:textStyle="bold"
+                android:background="#d6c01c"
+                android:textColor="#f40919"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:text="Chức năng"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_margin="3dp"
+                android:weightSum="3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_margin="1dp"
+                    android:background="#df0000"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp">
+
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:background="#f00"
+                        android:src="@drawable/rainbow" />
+                    <TextView
+                        android:textStyle="bold"
+                        android:background="#da1308"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:text="Chức năng"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_margin="1dp"
+                    android:background="#FFF16519"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp">
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:background="#f16519"
+                        android:src="@drawable/coffee"
+                        android:layout_width="100dp"
+                        android:layout_height="90dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="#f16519"
+                        android:gravity="center"
+                        android:text="Coffee"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_margin="1dp"
+                    android:background="#efde1c"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp">
+                    <ImageView
+
+                        android:layout_gravity="center"
+                        android:background="#efde1c"
+                        android:src="@drawable/tshirt"
+                        android:layout_width="100dp"
+                        android:layout_height="90dp" />
+                    <TextView
+                        android:textStyle="bold"
+                        android:background="#efde1c"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:text="Chức năng"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--Line 2 -->
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_margin="3dp"
+                android:weightSum="3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_margin="1dp"
+                    android:background="#004cff"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp">
+
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:background="#004cff"
+                        android:src="@drawable/atomic" />
+                    <TextView
+                        android:textStyle="bold"
+                        android:background="#004cff"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:text="Chức năng"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_margin="1dp"
+                    android:background="#f119db"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp">
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:background="#f119db"
+                        android:src="@drawable/hot"
+                        android:layout_width="100dp"
+                        android:layout_height="90dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="#f119db"
+                        android:gravity="center"
+                        android:text="Coffee"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_margin="1dp"
+                    android:background="#2dface"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp">
+                    <ImageView
+
+                        android:layout_gravity="center"
+                        android:background="#2dface"
+                        android:src="@drawable/store"
+                        android:layout_width="100dp"
+                        android:layout_height="90dp" />
+                    <TextView
+                        android:textStyle="bold"
+                        android:background="#2dface"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:text="Chức năng"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        <!-- line 3-->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_margin="3dp"
+                android:weightSum="3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_margin="1dp"
+                    android:background="#9408da"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp">
+
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:background="#9408da"
+                        android:src="@drawable/medicine" />
+                    <TextView
+                        android:textStyle="bold"
+                        android:background="#9408da"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:text="Chức năng"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_margin="1dp"
+                    android:background="#1948f1"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp">
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:background="#1948f1"
+                        android:src="@drawable/store"
+                        android:layout_width="100dp"
+                        android:layout_height="90dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="#1948f1"
+                        android:gravity="center"
+                        android:text="Coffee"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_margin="1dp"
+                    android:background="#51ef1c"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp">
+                    <ImageView
+
+                        android:layout_gravity="center"
+                        android:background="#51ef1c"
+                        android:src="@drawable/location"
+                        android:layout_width="100dp"
+                        android:layout_height="90dp" />
+                    <TextView
+                        android:textStyle="bold"
+                        android:background="#51ef1c"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:text="Chức năng"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
